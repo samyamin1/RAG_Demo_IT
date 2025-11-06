@@ -1,0 +1,26 @@
+site_name: RAG Module Documentation
+site_description: Production-ready RAG system with Ollama and Hybrid Retrieval
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - Home: README.md
+  - Getting Started: RAG_Kickoff_and_Run.md
+  - Architecture: ARCHITECTURE.md
+  - Parameters: PARAMETERS.md
+  - Troubleshooting: TROUBLESHOOTING.md
+  - Evaluation: EVAL_AND_TUNING.md
+
+docs_dir: .
+site_dir: site
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+
+
